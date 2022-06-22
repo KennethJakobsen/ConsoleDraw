@@ -1,11 +1,13 @@
-﻿for(var y = 0; y < 11; y++)
+﻿using SquareAndCross;
+
+var size = 11;
+
+
+var drawer = new SquareDrawer(size);
+for(var y = 0; y < size; y++)
 {
-    for (var x = 0; x < 11; x++)
+    for (var x = 0; x < size; x++)
     {
-        if (x == 0 || x == 10 || y == 0 || y == 10 || x==y || 10-x == y)
-            Console.Write("#");
-        else
-            Console.Write(" ");
+        Console.Write(drawer.Draw(x, y));
     }
-    Console.Write(Environment.NewLine);
 }
