@@ -2,7 +2,7 @@
 
 1. The code in this repo outputs the following square
 	1. this is neat
-
+		```
 		###########
 		##       ##
 		# #     # #
@@ -14,8 +14,11 @@
 		# #     # #
 		##       ##
 		###########
+		```
+		
 	2. this is not neat:
-	        ############
+		```
+		############
 		##        ##
 		# #      # #
 		#  #    #  #
@@ -27,7 +30,7 @@
 		# #      # #
 		##        ##
 		############
-
+		```
 2. Expand the solution to include the following user stories:
     1. As a USER I want to be able to change the size of the square SO it fits my sqaure needs
     2. AS a USER I want an X where lines intersect SO I can easily identify intersections
